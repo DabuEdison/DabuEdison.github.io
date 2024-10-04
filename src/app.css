@@ -1,3 +1,105 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.5.3/flowbite.min.css";
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Make the banner a positioned element */
+}
+
+.navbar {
+    width: auto; /* Changed to auto for responsiveness */
+    background-color: rgba(0, 0, 0, 0.72); /* Semi-transparent background for readability */
+    padding: 15px 5%; /* Consistent padding */
+    padding-right: 10px;
+}
+
+.navbar ul {
+    padding: 0; /* Remove padding for consistent spacing */
+}
+
+.navbar li a {
+    padding: 10px 15px; /* Added padding for better click area */
+    border-radius: 10px; /* Rounded corners for the links */
+    font-size: 18px;
+    color: #fff; /* Text color for links */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+.navbar li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #ffc905; /* Change text color on hover */
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    padding: 20px; /* Added padding for content section */
+    position: relative; /* Keeps content above the banner */
+}
+
+.portfolio-section {
+    margin-top: 2.5rem; /* Equivalent to mt-10 */
+    display: flex; /* Use flex for side-by-side layout */
+    flex-direction: row; /* Align children in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 60px;
+}
+
+.portfolio-section h2 {
+    color: white; /* White text */
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: bold; /* Bold text */
+    text-align: left;
+    padding-left: 40%;
+}
+
+.portfolio-section h1 {
+    color: white; /* White text */
+    font-size: 3rem; /* Equivalent to text-5xl */
+    font-weight: bold; /* Bold text */
+    padding-left: 170px;
+}
+
+.portfolio-section .highlight {
+    color: #ffc905; /* Equivalent to text-yellow-500 */
+}
+
+.portfolio-section p {
+    color: white; /* White text */
+    margin-top: 2rem; /* Equivalent to mt-4 */
+    text-align: center; /* Left-aligned text */
+    max-width: 40rem; /* Adjust based on your design preference */
+    padding-left: 170px;
+}
+
+.portfolio-section .portfolio-text {
+    display: flex;
+    flex-direction: column; /* Keep the text in a column layout */
+    justify-content: center; /* Center the text vertically with the image */
+    padding-left: 20px; /* Space between the image and text */
+    margin-top: 60px;
+}
+
+.profile-image {
+    width: 400px; /* Set the width of the image */
+    height: 400px; /* Set the height of the image to the same value as width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border: 1px solid; /* Optional: Add a white border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+    margin-right: 20px; /* Space between the image and text */
+    margin-top: 50px;
+}
+
