@@ -26,7 +26,7 @@
       <!-- Navigation Links -->
       <nav>
         <ul class="flex space-x-6 list-none">
-          <li><a href="home" class="text-white hover:text-yellow-400 transition duration-300">Home</a></li>
+          <li><a href="home" class="text-white hover:text-yellow-400 transition duration-300">Portfolio</a></li>
           <li><a href="about" class="text-white hover:text-yellow-400 transition duration-300">About</a></li>
           <li><a href="contacts" class="text-white hover:text-yellow-400 transition duration-300">Contact</a></li>
         </ul>

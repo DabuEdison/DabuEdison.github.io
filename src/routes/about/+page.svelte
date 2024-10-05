@@ -25,7 +25,7 @@
       <nav>
         <ul class="flex space-x-6 list-none">
           {#each [
-            { href: "home", label: "Home" },
+            { href: "home", label: "Portfolio" },
             { href: "about", label: "About" },
             { href: "contacts", label: "Contact" },
           ] as { href, label }}

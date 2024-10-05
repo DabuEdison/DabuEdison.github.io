@@ -7,13 +7,13 @@
     <div class="navbar flex justify-between items-center p-4 bg-black/80 backdrop-blur-lg">
       <!-- MyPortfolio Link -->
       <div class="text-white font-bold text-lg">
-        <a href="myportfolio" class="hover:text-yellow-400 transition">MyPortfolio</a>
+        <a href="myportfolio" class="hover:text-yellow-400 transition">Home</a>
       </div>
 
       <!-- Navigation Links -->
       <div>
         <ul class="flex space-x-6 list-none">
-          <li><a href="home" class="text-white hover:text-gray-400 transition">Home</a></li>
+          <li><a href="home" class="text-white hover:text-gray-400 transition">Portfolio</a></li>
           <li><a href="about" class="text-white hover:text-gray-400 transition">About</a></li>
           <li><a href="contacts" class="text-white hover:text-gray-400 transition">Contact</a></li>
         </ul>
