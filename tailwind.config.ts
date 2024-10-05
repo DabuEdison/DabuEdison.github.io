@@ -29,3 +29,4 @@ colors: {// flowbite-svelte
 
 plugins: [flowbitePlugin],
 } as Config;
+
