@@ -1,4 +1,5 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.5.3/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.5.3/flowbite.min.js">
+</script>
 
 <main>
   <!-- Banner Section -->
@@ -31,6 +32,14 @@
       </div>
     </div>
 
-
-</div>
+    <!-- Portfolio Section -->
+    <div class="portfolio-section flex flex-col md:flex-row items-center justify-center text-center md:text-left mt-10">
+      <img src="myphoto.jpg" alt="Edison G. Dabu" class="profile-image w-60 h-60 md:w-80 md:h-80 rounded-full object-cover shadow-lg" />
+      <div class="portfolio-text ml-0 md:ml-10 mt-6 md:mt-0">
+        <h2 class="text-2xl text-white font-bold">Welcome to My Portfolio</h2>
+        <h1 class="text-5xl text-white font-extrabold mt-4">I'm <span class="highlight text-yellow-400">Edison G. Dabu</span></h1>
+        <p class="text-white mt-6 max-w-2xl">I believe that passion and purpose drive success, and my work reflects my commitment to both.</p>
+      </div>
+    </div>
+  </div>
 </main>
